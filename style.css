@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding: 0 5%;
+    padding-block:5px ;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.fa-chevron-down{
+    font-size: 12px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    padding-left:  13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: #f6f4f9;
+    color: #080036;
+}
+
+.hero-text h1 {
+    font-size: 85px;
+    font-weight: 600;
+}
+
+.button-34 {
+    background: #fe6c2c;
+    border-radius: 999px;
+    box-shadow: #fe6c2c 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 20px 65px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+.hero-text h3{
+    padding-bottom: 50px;
+}
+
+.three-area{
+    padding: 0 5%;
+    width: 100%;
+    display: grid;
+    margin-bottom: 50px;
+
+}
+.areas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin: auto;
+    padding: 0 5%;
+    width: 100%;
+    margin-top: -60px;
+    z-index: 99;
+
+}
+.one{
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding-block: 30px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.two{
+        width: 90%;
+        height: auto;
+        border-radius: 20px;
+        background-color: #ffffff;
+        padding-block: 30px;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.three{
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding-block: 30px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.about-home{
+    padding: 0 5%;
+    margin-bottom: 50px;
+}
+.about-home-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-home-text h6{
+    color: #fe6c2c;
+
+}
+.about-home-text h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.about-home-text p{
+    text-align: left;
+}
+
+.company{
+    padding: 0 5%;
+    padding-block: 30px;
+    margin-bottom: 50px;
+    background-color: #f6f4f9;
+}
+
+.a{
+    background-color: #fe6c2c;
+    padding: 0 5%;
+    color: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    width: 95%;
+    padding-block: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.b{
+    background-color: aqua;
+    padding: 0 5%;
+    color: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    width: 95%;
+    padding-block: 10px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.c{
+    background-color: #080036;
+    padding: 0 5%;
+    color: #FFFFFF;
+    border-radius: 15px; 
+    width: 95%;
+    padding-block: 10px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.d{
+    background-color: #ec1b24;
+    padding: 0 5%;
+    color: #FFFFFF;
+    border-radius: 15px;
+    width: 95%;
+    padding-block: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.choose{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.job-home{
+    background-color: #f6f4f9;
+    padding-block: 50px;
+}
