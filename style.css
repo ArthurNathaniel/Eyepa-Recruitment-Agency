@@ -406,19 +406,60 @@ body {
     margin: 50px;
     margin: 0 25%;
 }
-.heading{
+
+.heading {
     margin-top: 50px;
     padding: 0 5%;
 }
 
-.heading h1{
+.heading h1 {
     color: #080036;
     font-size: 48px;
     font-weight: 600;
 }
-.form-control--{
+
+.form-control-- {
     height: 150px;
 }
-.con{
+
+.con {
     padding: 0 5%;
+}
+
+.steps {
+    padding: 0 5%;
+    margin-bottom: 50px;
+    padding-block: 50px;
+    background-color: #f6f4f9;
+}
+
+.step-head h6 {
+    color: #fe6c2c;
+}
+
+.step-head h1 {
+    color: #080036;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.step-text p {
+    color: #080036;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+}
+.process{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.process-one{
+    background-color: #FFFFFF;
+    width: 95%;
+    padding: 0 5%;
+    border-radius: 20px;
+    padding-block:30px ;
 }
