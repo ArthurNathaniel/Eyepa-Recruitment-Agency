@@ -176,13 +176,13 @@ body {
 
 .a:hover {
     background-color: #FFFFFF;
-    color:#080036;
+    color: #080036;
 }
 
 .b {
     background-color: #FFFFFF;
     padding: 0 5%;
-    color:#080036;
+    color: #080036;
     border-radius: 15px;
     margin-bottom: 1rem;
     width: 95%;
@@ -198,7 +198,7 @@ body {
 .c {
     background-color: #FFFFFF;
     padding: 0 5%;
-    color:#080036;
+    color: #080036;
     border-radius: 15px;
     width: 95%;
     padding-block: 10px;
@@ -222,7 +222,7 @@ body {
 
 .d:hover {
     background-color: #FFFFFF;
-    color:#080036;
+    color: #080036;
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 
 }
@@ -450,87 +450,101 @@ body {
     align-self: center;
     height: 100%;
 }
-.process{
+
+.process {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.process-one{
+
+.process-one {
     background-color: #FFFFFF;
     width: 95%;
     padding: 0 5%;
     border-radius: 20px;
-    padding-block:30px ;
+    padding-block: 30px;
 }
-.process-one:hover{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.job-a:hover{
+
+.process-one:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-footer{
+.job-a:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+footer {
     margin-top: 50px;
     padding: 0 5%;
     padding-block: 30px;
     background-color: #f6f4f9;
 }
-.get{
+
+.get {
     height: 50px;
 }
-.get-{
+
+.get- {
     position: relative;
 }
-.get- input{
+
+.get- input {
     width: 100%;
     border-radius: 999px;
 }
-.get- i{
+
+.get- i {
     position: absolute;
     right: 0;
     left: 87%;
     top: 33%;
 }
-footer p{
+
+footer p {
     margin-top: 30px;
 }
-footer hr{
+
+footer hr {
     color: red;
 }
-footer li{
+
+footer li {
     list-style-type: none;
     line-height: 2;
 }
-footer li a{
+
+footer li a {
     text-decoration: none;
     color: #080036;
 }
 
-.line{
+.line {
     margin-top: 50px;
     border: 1px solid #080036;
     border-radius: 999px;
 }
 
-.testimony{
+.testimony {
     padding: 0 5%;
     padding-block: 50px;
     background-color: #f6f4f9;
     margin-top: 50px;
 }
 
-.testimony, .test h1{
+.testimony,
+.test h1 {
     font-size: 48px;
     color: #080036;
     font-weight: 600;
-text-align: center;
+    text-align: center;
 }
 
-.ready{
+.ready {
     padding: 0 10%;
     padding-block: 70px;
     margin-top: 50px;
 }
-.hired-btn{
+
+.hired-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -559,42 +573,46 @@ text-align: center;
     border: 0;
     margin-left: 20px;
 }
- .me-auto{
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+
+.me-auto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.nav-item-{
+.nav-item- {
     list-style-type: none;
 }
-.nav-link-  a{
+
+.nav-link- a {
     color: #000;
 }
-.nav-link-{
+
+.nav-link- {
     color: #fe6c2c;
     border: 2px solid #fe6c2c;
     border-radius: 999px;
     box-shadow: #fe6c2c 0 10px 20px -10px;
 }
+
 .nav-link {
-	display: block;
-	padding: .5rem 1rem;
-	/* color: #0d6efd; */
-	text-decoration: none;
-	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-	color: #000;
-  
+    display: block;
+    padding: .5rem 1rem;
+    /* color: #0d6efd; */
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    color: #000;
+
 }
 
 
-.account{
+.account {
     display: flex;
 }
 
-.form-name input{
+.form-name input {
     width: 90%;
     border-radius: 30px;
     padding: 0 3%;
@@ -602,13 +620,29 @@ align-items: center;
     margin-bottom: 30px;
 }
 
-.signup-section{
+.signup-section {
     background-color: #f6f4f9;
     padding-top: 100px;
 }
-.forms-section-{
+
+.forms-section- {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
+}
+
+.contact-- {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 5%;
+}
+
+.one-contact {
+    background-color: #f6f4f9;
+    width: 95%;
+    padding-block: 50px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 30px;
 }
