@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Eyepa Recruitment Agency</title>
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="overflow-hidden">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    </ul>
+
+                </div>
+                <div class="account">
+                    <li class="nav-item nav-item-">
+                        <a class="nav-link nav-link-" href="login.html"><i class="fas fa-sign-in-alt"></i>
+                            Login</a>
+                    </li>
+                    <div class="user">
+
+                        <button class="user-btn" role="button"><a href="signup.html"
+                            style="color: #fff; text-decoration:none;"><i class="fas fa-user-plus"></i> Sign
+                            up</a></button>                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <div class="row g-0 signup-section">
+            <div class="col-md-6" >
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-color: #f6f4f9;">
+                            <img src="images/about.png" alt="" style="width: 100%;">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 forms-section">
+                <h1>Welcome to Eyepa Recruitment Agency!</h1>
+                <h5>Register your account</h5>
+                <form action="">
+
+                    <div class="form-name">
+                        <label for="">Full Name:</label>
+                        <br>
+                        <input type="text" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-name">
+                        <label for="">Email:</label>
+                        <br>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-name">
+                        <label for="">Password:</label>
+                        <br>
+                        <input type="password" placeholder="Enter your password" required>
+                    </div>
+                    <div class="form-name">
+                        <label for="">Confirm Password:</label>
+                        <br>
+                        <input type="password" placeholder="Enter your confirm password" required>
+                    </div>
+                    <br>
+                    <button class="button-34" role="button">Sign up</button>
+
+                </form>
+            </div>
+        </div>
+        <footer style="margin-top: 0; padding-top:50px;">
+            <div class="text-center -4">
+                <span>
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear())</script> Eyepa Recruitment Agency
+                </span>
+            </div>
+        </footer>
+    </div>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
