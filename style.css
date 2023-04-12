@@ -462,4 +462,5 @@ body {
     padding: 0 5%;
     border-radius: 20px;
     padding-block:30px ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
