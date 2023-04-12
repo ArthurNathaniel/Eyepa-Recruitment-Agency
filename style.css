@@ -176,13 +176,13 @@ body {
 
 .a:hover {
     background-color: #FFFFFF;
-    color: #fe6c2c;
+    color:#080036;
 }
 
 .b {
-    background-color: aqua;
+    background-color: #FFFFFF;
     padding: 0 5%;
-    color: #FFFFFF;
+    color:#080036;
     border-radius: 15px;
     margin-bottom: 1rem;
     width: 95%;
@@ -191,14 +191,14 @@ body {
 }
 
 .b:hover {
-    background-color: #FFFFFF;
-    color: aqua;
+    background-color: #fe6c2c;
+    color: #FFFFFF;
 }
 
 .c {
-    background-color: #080036;
+    background-color: #FFFFFF;
     padding: 0 5%;
-    color: #FFFFFF;
+    color:#080036;
     border-radius: 15px;
     width: 95%;
     padding-block: 10px;
@@ -206,12 +206,12 @@ body {
 }
 
 .c:hover {
-    background-color: #FFFFFF;
-    color: #080036;
+    background-color: #fe6c2c;
+    color: #FFFFFF;
 }
 
 .d {
-    background-color: #ec1b24;
+    background-color: #fe6c2c;
     padding: 0 5%;
     color: #FFFFFF;
     border-radius: 15px;
@@ -222,7 +222,9 @@ body {
 
 .d:hover {
     background-color: #FFFFFF;
-    color: #ec1b24;
+    color:#080036;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
 }
 
 .choose {
