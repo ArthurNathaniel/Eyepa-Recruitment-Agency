@@ -465,3 +465,46 @@ body {
 .job-a:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+footer{
+    margin-top: 50px;
+    padding: 0 5%;
+    padding-block: 30px;
+    background-color: #f6f4f9;
+}
+.get{
+    height: 50px;
+}
+.get-{
+    position: relative;
+}
+.get- input{
+    width: 100%;
+    border-radius: 999px;
+}
+.get- i{
+    position: absolute;
+    right: 0;
+    left: 87%;
+    top: 33%;
+}
+footer p{
+    margin-top: 30px;
+}
+footer hr{
+    color: red;
+}
+footer li{
+    list-style-type: none;
+    line-height: 2;
+}
+footer li a{
+    text-decoration: none;
+    color: #080036;
+}
+
+.line{
+    margin-top: 50px;
+    border: 1px solid #080036;
+    border-radius: 999px;
+}
