@@ -37,7 +37,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -70,7 +70,11 @@
                     </ul>
 
                 </div>
+                <div class="user">
+                    <button class="user-btn" role="button"><i class="fas fa-user-plus"></i> Register Now</button>
+                </div>
             </div>
+            
         </nav>
 
         <!-- Swiper -->
@@ -521,6 +525,47 @@
         </div>
     </section>
 
+    <section>
+        <div class="testimony">
+            <div class="col-12">
+                <h1 class="test">
+                    Thousands of fresher <br>
+                    get their first job
+                </h1>
+            </div>
+            <div class="swiper mySwiper3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://placehold.jp/250x100.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://placehold.jp/250x100.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://placehold.jp/250x100.png" alt="">
+                    </div>
+                    
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="ready">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Ready to get hired</h1>
+                    <p>Sign up and find your dream job</p>
+                </div>
+                <div class="col-md-4 hired-btn">
+                    <button class="button-34" role="button">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="row">
             <div class="col-md-3">
@@ -593,6 +638,18 @@
 
     <script>
         var swiper = new Swiper(".mySwiper2", {
+            autoplay: true,
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper3", {
             autoplay: true,
             slidesPerView: 3,
             spaceBetween: 30,
