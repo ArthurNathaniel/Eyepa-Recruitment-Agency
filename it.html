@@ -22,6 +22,9 @@
     <!--Custom CSS-->
     <link rel="stylesheet" href="style.css">
 
+    <!--Animate on scroll-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -91,7 +94,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="https://placehold.jp/1800x450.png" alt="">
-                        <div class="job-listings-text">
+                        <div class="job-listings-text" data-aos="fade-up-right">
                             <h1>Join Our IT Team</h1>
                             <h4> Exciting Opportunities for Skilled Tech Enthusiasts!</h4>
                         </div>
@@ -105,77 +108,87 @@
                 <!-- <div class="col-md-5">
                     illustrator image
                    </div> -->
-               <div class="col-md-10" style="padding: 0 10%; margin:0 auto;">
-                <form>
-                    <div class="form-group">
-                      <label for="fullName">Full Name<span class="required">*</span></label>
-                      <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="contactNumber">Contact Number<span class="required">*</span></label>
-                      <input type="mob" class="form-control" id="contactNumber" placeholder="Enter your contact number" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="email">Email address<span class="required">*</span></label>
-                      <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="educationQualification">Education Qualification<span class="required">*</span></label>
-                      <select class="form-control" id="educationQualification" required>
-                        <option value="highSchool">High School</option>
-                        <option value="diploma">Diploma</option>
-                        <option value="higherNationalDiplomas">Higher National Diplomas</option>
-                        <option value="bachelors">Bachelor's Degree</option>
-                        <option value="masters">Master's Degree</option>
-                        <option value="phd">Ph.D.</option>
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <label for="teachingExperience">Teaching Experience<span class="required">*</span></label>
-                      <input type="text" class="form-control" id="teachingExperience" placeholder="Enter your years of teaching experience" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="subjectExpertise">Subject Areas of Expertise<span class="required">*</span></label>
-                      <input type="text" class="form-control" id="subjectExpertise" placeholder="Enter your subject areas of expertise" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="location">Preferred Location for Job<span class="required">*</span></label>
-                      <input type="text" class="form-control" id="location" placeholder="Enter your preferred location for job" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="availability">Availability<span class="required">*</span></label>
-                      <select class="form-control" id="availability" required>
-                        <option value="full-time">Full-time</option>
-                        <option value="part-time">Part-time</option>
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <label for="resume" id="resume_label">
-                       <div class="boat">
-                        <i class="fa-solid fa-cloud-arrow-down"></i> Upload Resume/CV
-                       </div><span class="required">*</span></label>
-                      <input type="file" class="form-control-file" id="resume" required>
-                    </div>
-                    
-                    <button type="submit" class=" button-34 mt-4">Register</button>
-                  </form>
-               </div>
+                <div class="col-md-10" style="padding: 0 10%; margin:0 auto;">
+                    <form>
+                        <div class="form-group">
+                            <label for="fullName">Full Name<span class="required">*</span></label>
+                            <input type="text" class="form-control" id="fullName" placeholder="Enter your full name"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactNumber">Contact Number<span class="required">*</span></label>
+                            <input type="mob" class="form-control" id="contactNumber"
+                                placeholder="Enter your contact number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address<span class="required">*</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email address"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="educationQualification">Education Qualification<span
+                                    class="required">*</span></label>
+                            <select class="form-control" id="educationQualification" required>
+                                <option value="highSchool">High School</option>
+                                <option value="diploma">Diploma</option>
+                                <option value="higherNationalDiplomas">Higher National Diplomas</option>
+                                <option value="bachelors">Bachelor's Degree</option>
+                                <option value="masters">Master's Degree</option>
+                                <option value="phd">Ph.D.</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="teachingExperience">Teaching Experience<span class="required">*</span></label>
+                            <input type="text" class="form-control" id="teachingExperience"
+                                placeholder="Enter your years of teaching experience" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subjectExpertise">Subject Areas of Expertise<span
+                                    class="required">*</span></label>
+                            <input type="text" class="form-control" id="subjectExpertise"
+                                placeholder="Enter your subject areas of expertise" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Preferred Location for Job<span class="required">*</span></label>
+                            <input type="text" class="form-control" id="location"
+                                placeholder="Enter your preferred location for job" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="availability">Availability<span class="required">*</span></label>
+                            <select class="form-control" id="availability" required>
+                                <option value="full-time">Full-time</option>
+                                <option value="part-time">Part-time</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="resume" id="resume_label">
+                                <div class="boat">
+                                    <i class="fa-solid fa-cloud-arrow-down"></i> Upload Resume/CV
+                                </div><span class="required">*</span>
+                            </label>
+                            <input type="file" class="form-control-file" id="resume" required>
+                        </div>
+
+                        <button type="submit" class=" button-34 mt-4">Register</button>
+                    </form>
+                </div>
             </div>
         </section>
         <style>
-           
+
         </style>
 
 
 
-        <section>
-            <div class="ready" style="background-color: aliceblue; margin:0 10%; border-radius:30px; margin-top:50px;box-shadow: aliceblue 0 10px 20px -10px;" >
-                <div class="row" >
+        <section data-aos="fade-up-right" data-aos-delay="300">
+            <div  data-aos="fade-up-right" data-aos-delay="400" class="ready"
+                style="background-color: aliceblue; margin:0 10%; border-radius:30px; margin-top:50px;box-shadow: aliceblue 0 10px 20px -10px;">
+                <div class="row">
                     <div class="col-md-8">
                         <h1>Ready to get hired</h1>
                         <p>Sign up and find your dream job</p>
                     </div>
-                    <div class="col-md-4 hired-btn">
+                    <div class="col-md-4 hired-btn"  data-aos="fade-up-right" data-aos-delay="500">
                         <button class="button-34" role="button"><a href="signup.html"
                                 style="color: #fff; text-decoration:none;"><i class="fas fa-user-plus"></i> Sign
                                 up</a></button>
@@ -231,6 +244,12 @@
         </footer>
 
     </div>
+
+    <!--Animate on scroll JS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
