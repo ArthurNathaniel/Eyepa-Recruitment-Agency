@@ -5,12 +5,14 @@ body {
     font-family: 'Outfit', sans-serif;
     margin: 0;
     padding: 0;
-overflow-x: hidden;
-    box-sizing: border-box;}
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
 
-.nat{
+.nat {
     overflow-x: hidden;
 }
+
 .navbar {
     padding: 0 5%;
     padding-block: 5px;
@@ -650,27 +652,89 @@ footer li a {
     margin-top: 50px;
     border-radius: 30px;
 }
-.testimony-one{
+
+.testimony-one {
     padding-block: 30px;
     border-radius: 15px;
     height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-background-color: #FFFFFF;
-text-align: left;
-padding: 0 5%;
+    background-color: #FFFFFF;
+    text-align: left;
+    padding: 0 5%;
 }
-.testimony-one:hover{
+
+.testimony-one:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.job-listings-text{
+.job-listings-text {
     position: absolute;
     text-align: left;
     padding: 0 6%;
     left: 0;
 }
-/* .job-listings-text h1{
-    font-size: 65px;
-} */
+
+.forms {
+    padding: 0 5%;
+    margin-top: 50px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.form-group input {
+    border-radius: 999px;
+    padding: 0 3%;
+    padding-block: 10px;
+}
+
+.form-group select {
+    border-radius: 999px;
+    padding: 0 3%;
+    padding-block: 10px;
+}
+
+.form-group label {
+    padding: 0 3%;
+}
+
+.boat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+#resume_label {
+    display: flex;
+    padding-block: 10px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+
+#resume {
+
+    opacity: 1;
+}
+
+.btn-edu a{
+    color: #080036;
+}
+.btn-edu a:hover{
+color:#fff
+}
+.btn-sc a{
+    color: #080036;
+}
+.btn-sc a:hover{
+color:#fff
+}
+.btn-it a{
+    color: #080036;
+}
+.btn-it a:hover{
+color:#fff
+}
