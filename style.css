@@ -5,9 +5,12 @@ body {
     font-family: 'Outfit', sans-serif;
     margin: 0;
     padding: 0;
+overflow-x: hidden;
+    box-sizing: border-box;}
+
+.nat{
     overflow-x: hidden;
 }
-
 .navbar {
     padding: 0 5%;
     padding-block: 5px;
@@ -490,6 +493,7 @@ footer {
 .get- input {
     width: 100%;
     border-radius: 999px;
+    padding: 0 5%;
 }
 
 .get- i {
@@ -646,3 +650,27 @@ footer li a {
     margin-top: 50px;
     border-radius: 30px;
 }
+.testimony-one{
+    padding-block: 30px;
+    border-radius: 15px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+background-color: #FFFFFF;
+text-align: left;
+padding: 0 5%;
+}
+.testimony-one:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.job-listings-text{
+    position: absolute;
+    text-align: left;
+    padding: 0 6%;
+    left: 0;
+}
+/* .job-listings-text h1{
+    font-size: 65px;
+} */
