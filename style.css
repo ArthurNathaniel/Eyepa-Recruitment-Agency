@@ -720,49 +720,169 @@ footer li a {
     opacity: 1;
 }
 
-.btn-edu a{
+.btn-edu a {
     color: #080036;
 }
-.btn-edu a:hover{
-color:#fff
+
+.btn-edu a:hover {
+    color: #fff
 }
-.btn-sc a{
+
+.btn-sc a {
     color: #080036;
 }
-.btn-sc a:hover{
-color:#fff
+
+.btn-sc a:hover {
+    color: #fff
 }
-.btn-it a{
+
+.btn-it a {
     color: #080036;
 }
-.btn-it a:hover{
-color:#fff
+
+.btn-it a:hover {
+    color: #fff
+}
+
+/* .find-input input {
+    position: relative;
+    width: 100%;
+    border-radius: 999px;
+    padding-left: 15%;
+    padding-block: 20px;
+} */
+
+/* .find-input i {
+    position: absolute;
+    padding-left: 5%;
+    left: 100px;
+    width: 100%;
+    height: 100%;
+    top: 80px;
+    color: lightgray;
+} */
+
+.side-bar {
+    background-color: #dfe4f4;
+    background-color: aliceblue;
+    color: #080036;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 6%;
+    box-shadow: aliceblue 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.find-filter input {
+    border-radius: 9px;
+    padding: 0 5%;
+    padding-block: 10px;
+}
+
+.find-jobs {
+    padding: 0 5%;
+    height: 70vh;
+    overflow-y: scroll;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    background-color: #FFFFFF;
+
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.find-jobs::-webkit-scrollbar {
+    display: none;
 }
 
 
+
+.jobs-details {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    box-shadow: #f6f4f9 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+padding: 0 5%;
+border-radius: 20px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+
+}
+
+.jobs-details:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+border: 2px solid #5cccf3;
+padding-block: 20px;
+
+}
+
+.job-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: left;
+}
+
+.job-location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: left;
+
+}
+
+.job-title h5 {
+    text-align: left;
+    width: 100%;
+}
+
+.job-title p {
+    text-align: left;
+    width: 100%;
+}
+
+.job-apply{
+    padding: 10px 30px;
+    background-color: #5cccf3;
+    border-radius: 998px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    width: 80%;
+    box-shadow: #5cccf3 0 10px 20px -10px;
+
+}
 
 /* Extra small devices (phones) */
 @media (max-width: 575.98px) {
     /* Styles for extra small devices go here */
-  }
-  
-  /* Small devices (tablets) */
-  @media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Small devices (tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
     /* Styles for small devices go here */
-  }
-  
-  /* Medium devices (laptops) */
-  @media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Medium devices (laptops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
     /* Styles for medium devices go here */
-  }
-  
-  /* Large devices (desktops) */
-  @media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
     /* Styles for large devices go here */
-  }
-  
-  /* Extra large devices (large desktops) */
-  @media (min-width: 1200px) {
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
     /* Styles for extra large devices go here */
-  }
-  
+}

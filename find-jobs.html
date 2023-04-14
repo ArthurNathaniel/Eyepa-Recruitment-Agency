@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyepa Recruitment Agency</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Animate on scroll-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    <div class="overflow-hidden nat">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Categories <i class="fa-solid fa-chevron-down"></i> </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="education.html">Education</a></li>
+                                <li><a class="dropdown-item" href="social-care.html">Social Care</a></li>
+                                <li><a class="dropdown-item" href="it.html">IT</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="find-jobs.html">Find Jobs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="our-app.html">Our App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="upload.html">Upload Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="dropdown">
+                    <button class=" user-btn dropdown-" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fas fa-user-plus"></i> My Account <i class="fa-solid fa-chevron-down"></i> </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                        <li><a class="dropdown-item" href="#">Login</a></li>
+                        <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Saved Jobs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://placehold.jp/1800x450.png" alt="">
+                        <div class="job-listings-text" data-aos="fade-up-right">
+                            <h1>Find Your Dream Job Here</h1>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Side Navigation Bar -->
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-md-3 side-bar ">
+                    <!-- Sidebar Content Here -->
+                    <ul class="nav flex-column mt-4 ">
+                        <div class="find-filter ">
+                            <label for="">
+                                <h5> <i class="fas fa-filter"></i> Filter</h5>
+                            </label>
+                            <br>
+                            <input type="text" placeholder="Company, skill, title...">
+                        </div>
+                        <div class="form-group mt-4">
+                            <h5> <i class="fas fa-check-circle"></i> Availability</h5>
+                            <label for="fulltime">
+                                <input type="checkbox" id="fulltime" name="fulltime" value="fulltime">
+                                Fulltime
+                            </label>
+                            <br>
+                            <label for="parttime">
+                                <input type="checkbox" id="parttime" name="parttime" value="parttime">
+                                Part-time
+                            </label>
+                            <br>
+                            <label for="remote">
+                                <input type="checkbox" id="remote" name="remote" value="remote">
+                                Remote
+                            </label>
+                        </div>
+                        <div class="form-group mt-4">
+                            <h5><i class="fas fa-industry"></i> Industry</h5>
+                            <label for="education">
+                                <input type="checkbox" id="education" name="education" value="education">
+                                Education
+                            </label>
+                            <br>
+                            <label for="social-care">
+                                <input type="checkbox" id="social-care" name="social-care" value="social-care">
+                                Social Care
+                            </label>
+                            <br>
+                            <label for="information-technology">
+                                <input type="checkbox" id="information-technology" name="information-technology"
+                                    value="information-technology">
+                                Information Technology
+                            </label>
+                        </div>
+                    </ul>
+
+                </div>
+                <div class="col-md-9 find-jobs">
+                    <div class="col-12">
+                        <div class="jobs-details">
+                            <div class="job-image">
+                                <img src="https://placehold.jp/100x100.png" alt="">
+                            </div>
+                            <div class="job-title">
+                                <h5>
+                                    <i class="fas fa-briefcase"></i>
+                                    UX Researcher</h5>
+                                <p>
+                                    <i class="fas fa-building"></i>
+                                    A-mole</p>
+                            </div>
+                            <div class="job-location">
+                                <h5><i class="fas fa-map-marker-alt"></i>
+                                    Kumasi, GH</h5>
+                            </div>
+                            <div class="job-apply">
+                                <a href="education.html" style="color: #fff; text-decoration:none">Apply now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="jobs-details">
+                            <div class="job-image">
+                                <img src="https://placehold.jp/100x100.png" alt="">
+                            </div>
+                            <div class="job-title">
+                                <h5>
+                                    <i class="fas fa-briefcase"></i>
+                                    Educator</h5>
+                                <p>
+                                    <i class="fas fa-building"></i>
+                                    New Mission Academy</p>
+                            </div>
+                            <div class="job-location">
+                                <h5><i class="fas fa-map-marker-alt"></i>
+                                    Kumasi, GH</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="jobs-details">
+                            <div class="job-image">
+                                <img src="https://placehold.jp/100x100.png" alt="">
+                            </div>
+                            <div class="job-title">
+                                <h5>
+                                    <i class="fas fa-briefcase"></i>
+                                    Mental Health Counselor</h5>
+                                <p>
+                                    <i class="fas fa-building"></i>
+                                    Naa Clinic</p>
+                            </div>
+                            <div class="job-location">
+                                <h5><i class="fas fa-map-marker-alt"></i>
+                                    Ejisu, GH</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="jobs-details">
+                            <div class="job-image">
+                                <img src="https://placehold.jp/100x100.png" alt="">
+                            </div>
+                            <div class="job-title">
+                                <h5>
+                                    <i class="fas fa-briefcase"></i>
+                                    Django Developer</h5>
+                                <p>
+                                    <i class="fas fa-building"></i>
+                                    Softnage</p>
+                            </div>
+                            <div class="job-location">
+                                <h5><i class="fas fa-map-marker-alt"></i>
+                                    Atonsu, GH</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="jobs-details">
+                            <div class="job-image">
+                                <img src="https://placehold.jp/100x100.png" alt="">
+                            </div>
+                            <div class="job-title">
+                                <h5>
+                                    <i class="fas fa-briefcase"></i>
+                                    School Counselor</h5>
+                                <p>
+                                    <i class="fas fa-building"></i>
+                                    Cindyland International School</p>
+                            </div>
+                            <div class="job-location">
+                                <h5><i class="fas fa-map-marker-alt"></i>
+                                    Offinso, GH</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="jobs-details">
+                            <div class="job-image">
+                                <img src="https://placehold.jp/100x100.png" alt="">
+                            </div>
+                            <div class="job-title">
+                                <h5>
+                                    <i class="fas fa-briefcase"></i>
+                                    Child and Family Therapist</h5>
+                                <p>
+                                    <i class="fas fa-building"></i>
+                                    St. Paul's Hospital</p>
+                            </div>
+                            <div class="job-location">
+                                <h5><i class="fas fa-map-marker-alt"></i>
+                                    Bekwai, GH</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="jobs-details">
+                            <div class="job-image">
+                                <img src="https://placehold.jp/100x100.png" alt="">
+                            </div>
+                            <div class="job-title">
+                                <h5>
+                                    <i class="fas fa-briefcase"></i>
+                                    Abacus Educator</h5>
+                                <p>
+                                    <i class="fas fa-building"></i>
+                                    Edu-Ghana</p>
+                            </div>
+                            <div class="job-location">
+                                <h5><i class="fas fa-map-marker-alt"></i>
+                                    Tech, GH</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="jobs-details">
+                            <div class="job-image">
+                                <img src="https://placehold.jp/100x100.png" alt="">
+                            </div>
+                            <div class="job-title">
+                                <h5>
+                                    <i class="fas fa-briefcase"></i>
+                                    Project Manager</h5>
+                                <p>
+                                    <i class="fas fa-building"></i>
+                                    Easy Balance</p>
+                            </div>
+                            <div class="job-location">
+                                <h5><i class="fas fa-map-marker-alt"></i>
+                                    Ho, GH</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="jobs-details">
+                            <div class="job-image">
+                                <img src="https://placehold.jp/100x100.png" alt="">
+                            </div>
+                            <div class="job-title">
+                                <h5>
+                                    <i class="fas fa-briefcase"></i>
+                                    Curriculum Developer</h5>
+                                <p>
+                                    <i class="fas fa-building"></i>
+                                    Nagies Angels Educational Complex</p>
+                            </div>
+                            <div class="job-location">
+                                <h5><i class="fas fa-map-marker-alt"></i>
+                                    Santasi, GH</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="jobs-details">
+                            <div class="job-image">
+                                <img src="https://placehold.jp/100x100.png" alt="">
+                            </div>
+                            <div class="job-title">
+                                <h5>
+                                    <i class="fas fa-briefcase"></i>
+                                    Wordpress Developer</h5>
+                                <p>
+                                    <i class="fas fa-building"></i>
+                                    Ashanti Web</p>
+                            </div>
+                            <div class="job-location">
+                                <h5><i class="fas fa-map-marker-alt"></i>
+                                    Sofoline, GH</h5>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                   
+
+                    
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="ready"
+                style="background-color: aliceblue; margin:0 10%; border-radius:30px; margin-top:50px;box-shadow: aliceblue 0 10px 20px -10px;">
+                <div class="row" >
+                    <div class="col-md-8" >
+                        <h1>Ready to get hired</h1>
+                        <p>Sign up and find your dream job</p>
+                    </div>
+                    <div class="col-md-4 hired-btn">
+                        <button class="button-34" role="button"><a href="signup.html"
+                                style="color: #fff; text-decoration:none;"><i class="fas fa-user-plus"></i> Sign
+                                up</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <footer>
+            <div class="row" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-md-3" data-aos="fae-right" data-aos-delay="200">
+                    <img src="images/logo.png" alt="">
+                    <p>Eyepa Recruitment Agency is an online platform specializing in connecting talented professionals
+                        with
+                        job opportunities in IT, social care, and education.</p>
+                </div>
+                <div class="col-md-3" data-aos="zoom-up" data-aos-delay="300">
+                    <h2>Quick Links</h2>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Eyepa</a></li>
+                    <li><a href="">Mission & Vision</a></li>
+                    <li><a href="">Education</a></li>
+                    <li><a href="">Social Care</a></li>
+                    <li><a href="">Information Technology</a></li>
+                </div>
+                <div class="col-md-3" data-aos="zoom-down" data-aos-delay="400">
+                    <h2>Contact Us</h2>
+                    <li><a href=""><i class="fas fa-phone"></i> +233 000 000 000</a></li>
+                    <li><a href=""><i class="fas fa-phone"></i> +233 000 000 000</a></li>
+                    <li><a href=""><i class="fas fa-location"></i> Location</a></li>
+                    <li><a href=""><i class="fas fa-location"></i> Location</a></li>
+                </div>
+                <div class="col-md-3" data-aos="flip-up" data-aos-delay="500">
+                    <h2>Get in Touch</h2>
+                    <p>
+                        We value your input and strive to continuously improve our services based on your feedback. Feel
+                        free to reach out to us with any questions or comments
+                    </p>
+                    <div class="get-">
+                        <input type="text" placeholder=" Enter your email " class="get" required>
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="line">
+            </div>
+            <div class="text-center mt-4">
+                <span>
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear())</script> Eyepa Recruitment Agency
+                </span>
+            </div>
+        </footer>
+
+    </div>
+
+    <!--Animate on scroll JS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+            autoplay: true,
+            loop: true,
+            rewind: true,
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper3", {
+            autoplay: true,
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
