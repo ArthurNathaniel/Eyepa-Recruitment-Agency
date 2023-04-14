@@ -18,12 +18,12 @@
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  
+
     <!--Custom CSS-->
     <link rel="stylesheet" href="style.css">
 
-     <!--Animate on scroll-->
-     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--Animate on scroll-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -47,16 +47,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                About Eyepa <i class="fa-solid fa-chevron-down"></i> </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="about.html">About Us</a></li>
-                                <li><a class="dropdown-item" href="mission.html">Mission & Vision</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Job Listings <i class="fa-solid fa-chevron-down"></i> </a>
+                                Categories <i class="fa-solid fa-chevron-down"></i> </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="education.html">Education</a></li>
                                 <li><a class="dropdown-item" href="social-care.html">Social Care</a></li>
@@ -64,7 +55,16 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Blog</a>
+                            <a class="nav-link" aria-current="page" href="about.html">Find Jobs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="about.html">Our App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="about.html">Upload Resume</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Us</a>
@@ -73,7 +73,18 @@
                     </ul>
 
                 </div>
-                <div class="account" >
+                <div class="dropdown">
+                    <button class=" user-btn dropdown-" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-user-plus"></i> My  Account <i class="fa-solid fa-chevron-down"></i> </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                        <li><a class="dropdown-item" href="#">Login</a></li>
+                        <li><a class="dropdown-item" href="#">Edit profile</a></li>
+                        <li><a class="dropdown-item" href="#">Saved Jobs</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="account" >
                     <li class="nav-item nav-item-" data-aos="zoom-up"  data-aos-delay="300">
                         <a class="nav-link nav-link-" href="login.html"><i class="fas fa-sign-in-alt"></i>
                             Login</a>
@@ -84,7 +95,7 @@
                                 style="color: #fff; text-decoration:none;"><i class="fas fa-user-plus"></i> Sign
                                 up</a></button>
                     </div>
-                </div>
+                </div> -->
             </div>
 
         </nav>
@@ -95,8 +106,8 @@
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="hero-text" >
-                                <h1 >
+                            <div class="hero-text">
+                                <h1>
                                     Get your
                                     <br>
                                     Dream Job
@@ -124,7 +135,7 @@
             <div class="col-md-7">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide" >
+                        <div class="swiper-slide">
                             <img src="images/hero.jpg" alt="">
                             <h2 style="text-align: left; color:#6554a4 ; position:absolute; width:100%;"><i
                                     class="fa-solid fa-users-rays"></i> </h2>
@@ -145,7 +156,7 @@
         <section>
             <div class="three-area ">
                 <div class="row  areas">
-                    <div class="  one"  data-aos="fade-up-right">
+                    <div class="  one" data-aos="fade-up-right">
                         <img src="images/education.png" alt="" style="width: 100px;">
                         <h3>Education</h3>
                         <p>
@@ -171,7 +182,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="three"  data-aos="fade-up-left">
+                    <div class="three" data-aos="fade-up-left">
                         <img src="images/it.png" alt="" style="width: 100px;">
                         <h3>I.T</h3>
                         <p>
@@ -205,7 +216,7 @@
                         </p>
                     </div>
                 </div>
-                <div class=" process" >
+                <div class=" process">
                     <div class="process-one" data-aos="zoom-in-right" data-aos-delay="200">
                         <h1><i class="fas fa-user-plus"></i>
                         </h1>
@@ -245,23 +256,24 @@
 
         <section>
             <div class="row gy-5 about-home">
-                <div class="col-md-6" data-aos="flip-left"  data-aos-delay="500" >
+                <div class="col-md-6" data-aos="flip-left" data-aos-delay="500">
                     <img src="images/about.png" alt="" width="100%">
                 </div>
-                <div class="col-md-6 about-home-text" data-aos="zoom-in-down"  data-aos-delay="100" >
-                    <h6 data-aos="zoom-in-down"  data-aos-delay="200" >ABOUT US</h6>
-                    <h5 data-aos="zoom-in-down"  data-aos-delay="300" > <i class="fa-solid fa-users-rays" style="color: #5bccf4;"></i>
+                <div class="col-md-6 about-home-text" data-aos="zoom-in-down" data-aos-delay="100">
+                    <h6 data-aos="zoom-in-down" data-aos-delay="200">ABOUT US</h6>
+                    <h5 data-aos="zoom-in-down" data-aos-delay="300"> <i class="fa-solid fa-users-rays"
+                            style="color: #5bccf4;"></i>
                         <i class="fa-solid fa-users-rays" style="color: #6554a4; margin:0 5%;"></i>
                         <i class="fa-solid fa-users-rays" style="color: #ec1b24;"></i>
                     </h5>
-                    <h1 data-aos="zoom-in-down"  data-aos-delay="400" >EYEPA RECRUITMENT AGENCY</h1>
-                    <p data-aos="zoom-in-down"  data-aos-delay="500" >
+                    <h1 data-aos="zoom-in-down" data-aos-delay="400">EYEPA RECRUITMENT AGENCY</h1>
+                    <p data-aos="zoom-in-down" data-aos-delay="500">
                         Eyepa Recruitment Agency is an online platform specializing in connecting talented professionals
                         with job opportunities in IT, social care, and education. Our mission is to provide exceptional
                         recruitment services, prioritizing trust, transparency, and customer service. Choose us for a
                         reliable and results-driven approach to finding the perfect match for your career or business.
                     </p>
-                    <button class="button-34" role="button" data-aos="zoom-in-down"  data-aos-delay="500" >
+                    <button class="button-34" role="button" data-aos="zoom-in-down" data-aos-delay="500">
                         <a href="about.html" style="color: #fff; text-decoration:none;"> About Eyepa <i
                                 class="fas fa-info-circle"></i>
                         </a></button>
@@ -271,8 +283,7 @@
 
         <section>
             <div class="row company" data-aos="zoom-out-right" data-aos-delay="100">
-                <div class="col-md-3" data-aos="fade-up"
-                data-aos-duration="3000">
+                <div class="col-md-3" data-aos="fade-up" data-aos-duration="3000">
                     <p><i class="fa-solid fa-snowflake" style="color: #ec1b24;"></i>
                         <i class="fa-solid fa-snowflake" style="color: #6554a4; margin:0 5%;"></i>
                         <i class="fa-solid fa-snowflake" style="color: #5bccf4;"></i>
@@ -337,7 +348,7 @@
                                 search and hiring.
                             </p>
                         </div>
-                        <div class=" c" data-aos="flip-left" data-aos-delay="400" >
+                        <div class=" c" data-aos="flip-left" data-aos-delay="400">
                             <h1><i class="fas fa-handshake"></i>
                             </h1>
                             <h4> Trust and Transparency: </h4>
@@ -361,8 +372,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-6" data-aos="flip-left"
-                data-aos-duration="2000">
+                <div class="col-md-6" data-aos="flip-left" data-aos-duration="2000">
                     <img src="images/choose.png" alt="" width="100%">
                 </div>
             </div>
@@ -559,7 +569,7 @@
         </div>
     </section>
 
-    <section  style="display: none;">
+    <section style="display: none;">
         <div class="testimony">
             <div class="col-12">
                 <h1 class="test">
@@ -623,14 +633,15 @@
         </div>
     </section>
 
-    <section data-aos="zoom-in"  data-aos-delay="100">
-        <div class="ready" style="background-color: aliceblue; margin:0 10%; border-radius:30px; margin-top:50px;box-shadow: aliceblue 0 10px 20px -10px;" >
-            <div class="row" data-aos="zoom-in"  data-aos-delay="200">
-                <div class="col-md-8" data-aos="zoom-out"  data-aos-delay="300">
+    <section data-aos="zoom-in" data-aos-delay="100">
+        <div class="ready"
+            style="background-color: aliceblue; margin:0 10%; border-radius:30px; margin-top:50px;box-shadow: aliceblue 0 10px 20px -10px;">
+            <div class="row" data-aos="zoom-in" data-aos-delay="200">
+                <div class="col-md-8" data-aos="zoom-out" data-aos-delay="300">
                     <h1>Ready to get hired</h1>
                     <p>Sign up and find your dream job</p>
                 </div>
-                <div class="col-md-4 hired-btn" data-aos="zoom-up"  data-aos-delay="400">
+                <div class="col-md-4 hired-btn" data-aos="zoom-up" data-aos-delay="400">
                     <button class="button-34" role="button"><a href="signup.html"
                             style="color: #fff; text-decoration:none;"><i class="fas fa-user-plus"></i> Sign
                             up</a></button>
@@ -642,13 +653,13 @@
 
 
     <footer>
-        <div class="row" data-aos="zoom-in"  data-aos-delay="100">
-            <div class="col-md-3" data-aos="fae-right"  data-aos-delay="200">
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-md-3" data-aos="fae-right" data-aos-delay="200">
                 <img src="images/logo.png" alt="">
                 <p>Eyepa Recruitment Agency is an online platform specializing in connecting talented professionals with
                     job opportunities in IT, social care, and education.</p>
             </div>
-            <div class="col-md-3" data-aos="zoom-up"  data-aos-delay="300">
+            <div class="col-md-3" data-aos="zoom-up" data-aos-delay="300">
                 <h2>Quick Links</h2>
                 <li><a href="">Home</a></li>
                 <li><a href="">About Eyepa</a></li>
@@ -657,14 +668,14 @@
                 <li><a href="">Social Care</a></li>
                 <li><a href="">Information Technology</a></li>
             </div>
-            <div class="col-md-3" data-aos="zoom-down"  data-aos-delay="400">
+            <div class="col-md-3" data-aos="zoom-down" data-aos-delay="400">
                 <h2>Contact Us</h2>
                 <li><a href=""><i class="fas fa-phone"></i> +233 000 000 000</a></li>
                 <li><a href=""><i class="fas fa-phone"></i> +233 000 000 000</a></li>
                 <li><a href=""><i class="fas fa-location"></i> Location</a></li>
                 <li><a href=""><i class="fas fa-location"></i> Location</a></li>
             </div>
-            <div class="col-md-3" data-aos="flip-up"  data-aos-delay="500">
+            <div class="col-md-3" data-aos="flip-up" data-aos-delay="500">
                 <h2>Get in Touch</h2>
                 <p>
                     We value your input and strive to continuously improve our services based on your feedback. Feel
@@ -693,7 +704,7 @@
     <script>
         AOS.init();
     </script>
-  
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
@@ -744,7 +755,7 @@
     </script>
 
 
-    
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
