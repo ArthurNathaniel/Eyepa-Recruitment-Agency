@@ -738,3 +738,31 @@ color:#fff
 .btn-it a:hover{
 color:#fff
 }
+
+
+
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+    /* Styles for extra small devices go here */
+  }
+  
+  /* Small devices (tablets) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* Styles for small devices go here */
+  }
+  
+  /* Medium devices (laptops) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Styles for medium devices go here */
+  }
+  
+  /* Large devices (desktops) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Styles for large devices go here */
+  }
+  
+  /* Extra large devices (large desktops) */
+  @media (min-width: 1200px) {
+    /* Styles for extra large devices go here */
+  }
+  
