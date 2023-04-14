@@ -480,8 +480,10 @@ body {
 footer {
     margin-top: 50px;
     padding: 0 5%;
+    padding: 100px;
     padding-block: 30px;
     background-color: #f6f4f9;
+    width: 100%;
 }
 
 .get {
@@ -937,6 +939,7 @@ height: 200px;
 .hero-edit{
     height: 250px;
     width: 100%;
+    padding: 0 !important;
     background-color: #5cccf3;
     background-position: center;
     background-size: cover;
@@ -951,6 +954,7 @@ height: 200px;
     padding:15px 15px ;
     color: #FFFFFF;
     background-color: #5cccf3;
+    border: 1px solid #ffff;
     position: absolute;
     right: 0;
     margin-right: 5%;
